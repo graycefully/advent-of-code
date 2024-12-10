@@ -72,8 +72,8 @@ def compact_disk_by_whole_files(disk: Disk) -> Disk:
         disk_sizes = disk_to_disk_sizes(disk)
         l = 0
         ls = 0
-        r_id -= 1
         r = len(disk) - 1
+        r_id -= 1
     return disk
 
 
